@@ -1,2 +1,2 @@
-const aa = 1;
-aa();
+const bb = 1;
+bb();
