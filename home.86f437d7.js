@@ -1,0 +1,2 @@
+(self.webpackChunkcreate_vue_by_hand=self.webpackChunkcreate_vue_by_hand||[]).push([[177],{272:(e,t,n)=>{"use strict";n.r(t),n.d(t,{default:()=>r});var u=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",[e._v("\n  这是home\n  "),n("button",{on:{click:e.goDetail}},[e._v("去详情页")])])};u._withStripped=!0;const l={methods:{goDetail(){this.$router.push("detail")}},mounted(){}};var o=(0,n(900).Z)(l,u,[],!1,null,null,null);o.options.__file="src/home/index.vue";const r=o.exports}}]);
+//# sourceMappingURL=home.86f437d7.js.map

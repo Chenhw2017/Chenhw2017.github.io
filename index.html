@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>首页22</title><script src="https://cdn.webuy.ai/static/hyk-assets/test-bug/test-script.js" crossorigin="anonymous"></script><script defer="defer" src="bunddle.js" crossorigin="anonymous"></script></head><body><div id="app"></div></body><script>function insertElementToPage(url) {
+    var el = document.createElement('script');
+    el.src = url;
+    el.type = "text/javascript";
+    var body = document.getElementsByTagName('body')[0];
+    body.appendChild(el);
+  }
+
+
+  setTimeout(() => {
+    insertElementToPage('https://cdn.jsdelivr.net/npm/chw-cdn-test@1.0.1/same_domain.js');
+    insertElementToPage('https://chenhw2017.github.io/different_domain.js');
+  }, 4000);</script></html>
