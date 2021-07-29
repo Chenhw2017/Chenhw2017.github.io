@@ -1,3 +1,3 @@
-setTimeout(() => {
+setInterval(() => {
     testScriptError();
-}, 4000);
+}, 1000);
